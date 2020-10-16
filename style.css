@@ -65,9 +65,5 @@ p {
 }
 
 .name {
-    color: white;
-}
-
-.lastname {
-    color: blue;
+    color: darkblue;
 }
