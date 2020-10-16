@@ -1,13 +1,25 @@
+@font-face {
+    font-family: 'fs_ex';
+    src: url('fixedsys_excelsior.ttf');
+	font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: lightblue;
+    background-color: black;
+    background-image: url("valparaiso.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
     margin: 0;
 }
 
 .resume {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgba(100, 100, 100, 0.4);
     padding: 50px;
 }
 
@@ -31,7 +43,8 @@ h1 {
 }
 h2 {
     margin-top: 0px;
-    color: grey;
+    color: rgb(196,196,0);
+    font-family: 'fs_ex';
 }
 h1, h2 {
     text-align: center;
@@ -49,4 +62,12 @@ h4 {
 p {
     margin-top: 0px;
     text-align: justify;
+}
+
+.name {
+    color: white;
+}
+
+.lastname {
+    color: blue;
 }
